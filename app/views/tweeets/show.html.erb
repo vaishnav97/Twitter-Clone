@@ -1,0 +1,28 @@
+<div class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Tweeet: </p>
+            <div class="content">
+              <p><%= @tweeet.tweeet %></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar is-fixed-bottom">
+  <div class="navbar-menu">
+    <div class="navbar-item">
+      <div class="field is-grouped">
+        <p class="control">
+          <%= link_to 'Back', tweeets_path, class: "button is-dark" %>
+        </p>
+      </div>
+    </div>
+  </div>
+</nav>
